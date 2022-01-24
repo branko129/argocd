@@ -15,8 +15,8 @@ spec:
       containers:
       - name: myapp
 #        image: nanajanashia/argocd-app:1.2
-        image: neos1-docker-dev.artifactory.nortal.com/faq-service:latest
+        image: branko129/nginx:latest
         ports:
-        - containerPort: 8080
-      imagePullSecrets:
-        - name: regcred
+        - containerPort: 80
+#      imagePullSecrets:
+#        - name: regcred
