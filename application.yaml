@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: branko129:nginx
+    argocd-image-updater.argoproj.io/image-list: branko129/nginx
     argocd-image-updater.argoproj.io/nginx.update-strategy: latest
 spec:
   project: default
