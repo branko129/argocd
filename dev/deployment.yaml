@@ -16,6 +16,7 @@ spec:
       - name: myapp
 #        image: nanajanashia/argocd-app:1.2
         image: branko129/nginx:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 #      imagePullSecrets:
