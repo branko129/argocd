@@ -1,3 +1,3 @@
 kustomize:
   images:
-  - branko129/nginx@sha256:89e024afebce4e06eb36635f3cbe31ef045902cf0dcfc983f012c58cd148c911
+  - branko129/nginx@sha256:4d2fa452f9d8cafc310c82b55472463ca0bf73264e8e8f2cb92566a42d847835
